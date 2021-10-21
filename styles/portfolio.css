@@ -36,11 +36,34 @@ p {
   padding-top: 20px;
 }
 .btn {
-  background: var(--branding-color);
-  border: none;
   font-family: var(--default-font-family);
   font-size: 18px;
   font-weight: regular;
   padding: 18px 30px;
   border-radius: 0.5rem;
+}
+.featured-text {
+  margin: 100px 0px;
+}
+
+.project-title {
+  font-size: 64px;
+  line-height: 85px;
+  margin-bottom: 50px;
+  margin-top: 55px;
+}
+
+.project-content {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.primary-button {
+  background: var(--branding-color);
+  border: none;
+}
+
+.secondary-button {
+  border: solid 1px var(--branding-color);
+  color: var(--branding-color);
 }
