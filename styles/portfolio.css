@@ -32,8 +32,10 @@ p {
 }
 .btn {
   background: #6c63ff;
+  border: none;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: regular;
   padding: 18px 30px;
+  border-radius: 0.5rem;
 }
