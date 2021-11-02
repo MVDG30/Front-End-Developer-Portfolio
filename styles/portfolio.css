@@ -6,6 +6,10 @@
   --header-font-family: "Playfair Display", serif;
 }
 
+body {
+  margin-bottom: 30px;
+}
+
 h1 {
   font-family: var(--header-font-family);
   font-size: 96px;
@@ -66,4 +70,43 @@ p {
 .secondary-button {
   border: solid 1px var(--branding-color);
   color: var(--branding-color);
+}
+
+.project-paragraph {
+  padding: 60px 30px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 35px;
+    padding-bottom: 18px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+
+  .hero p {
+    font-size: 25px;
+  }
+  .hero {
+    padding: 50px 20px 20px;
+  }
+
+  .featured-text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .project-paragraph {
+    padding: 0;
+    text-align: center;
+  }
+  .container {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 40px;
+  }
+  .project-title {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
 }
