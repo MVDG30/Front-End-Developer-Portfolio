@@ -79,10 +79,10 @@ p {
 @media (max-width: 900px) {
   h1 {
     font-size: 35px;
-    padding-bottom: 18px;
   }
   h2 {
     font-size: 20px;
+    margin-top: 20px;
   }
 
   .hero p {
@@ -106,7 +106,8 @@ p {
     padding-right: 40px;
   }
   .project-title {
-    margin-bottom: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
   }
 }
