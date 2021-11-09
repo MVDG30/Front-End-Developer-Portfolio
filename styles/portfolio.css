@@ -43,7 +43,7 @@ p {
   border-radius: 0.5rem;
 }
 
-.home-sub-header {
+.hero h2 {
   font-size: 24px;
   font-weight: regular;
 }
@@ -75,6 +75,28 @@ p {
 
 .project-paragraph {
   padding: 60px 30px;
+}
+
+.about-section {
+  padding: 100px 20px 254px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+.about-header {
+  font-size: 64px;
+  line-height: 85px;
+}
+.about-subheader {
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 27px;
+}
+.about-content p {
+  font-size: 16px;
+  font-style: regular;
+  line-height: 30px;
 }
 
 @media (max-width: 900px) {
@@ -114,19 +136,4 @@ p {
 }
 img {
   border-radius: 15px;
-}
-
-.about-header {
-  font-size: 64px;
-  line-height: 85px;
-}
-.about-sub-header {
-  font-weight: 700px;
-  font-size: 18px;
-  line-height: 27px;
-}
-.about-content p {
-  font-size: 16px;
-  font-style: regular;
-  line-height: 30px;
 }
