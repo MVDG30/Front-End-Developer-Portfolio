@@ -16,11 +16,6 @@ h1 {
   font-weight: bold;
 }
 
-h2 {
-  font-size: 24px;
-  font-weight: regular;
-}
-
 h2,
 p {
   color: var(--default-text-color);
@@ -42,9 +37,15 @@ p {
 .btn {
   font-family: var(--default-font-family);
   font-size: 18px;
+
   font-weight: regular;
   padding: 18px 30px;
   border-radius: 0.5rem;
+}
+
+.home-sub-header {
+  font-size: 24px;
+  font-weight: regular;
 }
 .featured-text {
   margin: 100px 0px;
@@ -110,4 +111,22 @@ p {
     margin-bottom: 10px;
     font-size: 40px;
   }
+}
+img {
+  border-radius: 15px;
+}
+
+.about-header {
+  font-size: 64px;
+  line-height: 85px;
+}
+.about-sub-header {
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 27px;
+}
+.about-content p {
+  font-size: 16px;
+  font-style: regular;
+  line-height: 30px;
 }
