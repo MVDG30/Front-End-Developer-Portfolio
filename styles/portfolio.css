@@ -77,11 +77,11 @@ p {
   padding: 60px 30px;
 }
 
-.about-section {
+.content-container {
   padding: 100px 20px 254px 20px;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
 }
 .page-header {
@@ -89,26 +89,27 @@ p {
   line-height: 85px;
   padding: 0;
 }
-.about-subheader {
+.subheader {
   font-weight: 700px;
   font-size: 18px;
   line-height: 27px;
 }
-.about-content p {
+.content-paragraph p {
   font-size: 16px;
   font-style: regular;
   line-height: 30px;
 }
 
-.work-header {
+.grid-subheader {
   font-size: 24px;
   font-weight: bold;
   line-height: 36px;
 }
 
-.work-image,
-.work-header {
-  padding: 0px 0px 0px 40px;
+.grid-image,
+.grid-subheader,
+.grid-description {
+  padding: 0px 0px 0px 30px;
 }
 @media (max-width: 900px) {
   h1 {
