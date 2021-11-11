@@ -84,9 +84,10 @@ p {
 .about-section-content {
   margin: 30px;
 }
-.about-header {
+.page-header {
   font-size: 64px;
   line-height: 85px;
+  padding: 0;
 }
 .about-subheader {
   font-weight: 700px;
@@ -99,6 +100,16 @@ p {
   line-height: 30px;
 }
 
+.work-header {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.work-image,
+.work-header {
+  padding: 0px 0px 0px 40px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 35px;
