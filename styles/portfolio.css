@@ -13,13 +13,19 @@ body {
 h1 {
   font-family: var(--header-font-family);
   font-size: 96px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 h2,
+h3,
 p {
   color: var(--default-text-color);
   font-family: var(--default-font-family);
+}
+
+h3 {
+  font-weight: 700;
+  padding: 20px 0 10px 0;
 }
 .hero {
   text-align: center;
@@ -111,6 +117,7 @@ p {
 .grid-description {
   padding: 0px 0px 0px 30px;
 }
+
 @media (max-width: 900px) {
   h1 {
     font-size: 35px;
