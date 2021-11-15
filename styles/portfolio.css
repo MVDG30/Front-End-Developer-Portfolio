@@ -27,6 +27,38 @@ h3 {
   font-weight: 700;
   padding: 20px 0 10px 0;
 }
+
+nav {
+  padding: 20px 0 20px;
+}
+nav li,
+nav ul a {
+  list-style: none;
+  display: inline;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #272142;
+  transition: all 120ms ease-in-out;
+}
+
+nav ul a:hover {
+  color: var(--branding-color);
+}
+nav ul {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  line-height: 2.5em;
+}
+
+nav li.active a {
+  color: var(--branding-color);
+}
+
+.logo-small {
+  max-height: 40px;
+  padding-left: 20px;
+}
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
@@ -127,6 +159,10 @@ h3 {
     margin-top: 20px;
   }
 
+  nav li,
+  nav ul a {
+    margin-left: 5px;
+  }
   .hero p {
     font-size: 25px;
   }
