@@ -29,14 +29,43 @@
       src="https://kit.fontawesome.com/03a353363d.js"
       crossorigin="anonymous"
     ></script>
-    <title>Michelle van de Griend</title>
+    <title>About Michelle</title>
 
     <link rel="stylesheet" href="styles/portfolio.css" />
+ <meta name="description" content="Here's a short introduction about Michelle as Front-end engineer. Find out more about Michelle by taking up contact with her.
+ "/>
   </head>
 
   <body>
-    <div class="container mt-5 content-container">
-      <div class="row">
+    <div class="container content-container">
+      
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+        <img src="/img/logo.png" class="logo d-none d-sm-block" title="Home Page" alt="she codes logo " />
+        <img src="/img/shecodes logo small.png" class=" logo-small d-block d-sm-none " title="Home Page" alt="shecodes logo small">
+      </a>
+        <ul class="nav-links">
+          <li >
+            <a href="/" title="Homepage">
+            Home
+          </li>
+          </a>
+          <li >
+            <a href="/work.html" title="Work page">
+            Work</li>
+          </a>
+          <li class="active">
+            <a href="/about.html" title="About page">
+            About</li>
+          </a>
+          <li>
+            <a href="/contact.html" title="Contact page">
+            Contact</li>
+          </a>
+        </ul>
+      </nav>
+      
+      <div class="row mt-5">
         <div class="col-6">
           <div class="content">
             <h1 class="page-header mb-4 mt-5">
@@ -46,12 +75,12 @@
               Frontend Developer, based in the Netherlands.
             </h2>
             <p class="content-paragraph text-muted">
-              For anyone who wants to start learning code, this workshop is very
-              interesting. You will be challenged with different exercises, and
-              everything is well explained, homework and deadlines are good for
-              keep focus
+              For anyone who wants to start learning to code, this workshop is very
+              interesting. You will be challenged with different exercises,
+              everything is well explained, and homework and deadlines are good for
+              keeping focussed.
             </p>
-            <a href="" class="btn btn-primary primary-button mt-5"
+            <a href="/work.html" class="btn btn-primary primary-button mt-5" title="Go to Michelle's Projects"
               >Check out my work</a
             >
           </div>
@@ -59,11 +88,46 @@
         <div class="col d-none d-lg-block">
           <img
             src="/img/portrait-me.jpg"
-            class="img-fluid"
+            class="img-fluid portrait-michelle"
             alt="portrait-image"
+            title="Portrait Michelle"
           />
         </div>
       </div>
+      <footer>
+        <div class="contact-box d-flex justify-content-between">
+          <div>
+          <h4>Work inquiry</h4>
+          <p class="text-muted">Let's grab a coffee and see how we can work together</p>
+        </div>
+        <div>
+          <a href="/contact.html" class="btn btn-primary contact-button">Let's talk here</a>
+        </div>
+        </div>
+        
+                <a href="mailto:michellevandegriend.mvdg@gmail.com" class="email-link">michellevandegriend.mvdg@gmail.com</a>
+                
+                <div class="social-links mt-5">
+                
+                 <a href="https://www.linkedin.com/in/michelle-van-de-griend
+                " target="_blank">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/MVDG30" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              
+              <a href="https://www.instagram.com/michelle.v.degriend/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              
+              
+              
+              </div>
+              <p class="text-center mt-5">This project was coded by Michelle v.d. Griend, and is
+                <a href="https://github.com/MVDG30/Front-End-Developer-Portfolio.git" target="_blank"> open sourced✌🏽 </a> </p>
+              </footer>
+
     </div>
   </body>
 </html>
