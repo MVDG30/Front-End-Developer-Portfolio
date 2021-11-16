@@ -35,7 +35,7 @@ h4 {
   text-align: left;
 }
 nav {
-  padding: 20px 0 20px;
+  padding: 5px 0 5px;
 }
 nav li,
 nav ul a {
@@ -73,7 +73,7 @@ footer {
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
-  padding: 100px 20px 254px 20px;
+  padding: 60px 20px 80px 20px;
 }
 
 .hero p {
@@ -171,8 +171,9 @@ footer {
   border-radius: 20px;
   margin-bottom: 80px;
 }
-footer .social-links {
+footer .social-links a {
   color: var(--branding-color);
+  text-decoration: none;
 }
 
 footer i.fab {
